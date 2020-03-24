@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.FlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-24T03:11:04" hostname="Thangass-MacBook-Pro.local" time="28.076">
+<testsuite name="test.pivotal.pal.tracker.FlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-24T03:39:38" hostname="Thangass-MacBook-Pro.local" time="31.3">
   <properties/>
-  <testcase name="testBasicFlow" classname="test.pivotal.pal.tracker.FlowTest" time="28.076"/>
-  <system-out><![CDATA[Waiting on port 8881...................................................................................................................... server is up.
-Waiting on port 8882... server is up.
+  <testcase name="testBasicFlow" classname="test.pivotal.pal.tracker.FlowTest" time="31.3"/>
+  <system-out><![CDATA[Waiting on port 8881................................................................................................................................. server is up.
+Waiting on port 8882.... server is up.
 Waiting on port 8883... server is up.
 Waiting on port 8884... server is up.
 asserted registrationServer - Noop
