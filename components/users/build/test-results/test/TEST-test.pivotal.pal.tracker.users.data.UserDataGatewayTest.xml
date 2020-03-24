@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.pivotal.pal.tracker.users.data.UserDataGatewayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-24T02:56:04" hostname="Thangass-MacBook-Pro.local" time="0.253">
+  <properties/>
+  <testcase name="testFind" classname="test.pivotal.pal.tracker.users.data.UserDataGatewayTest" time="0.202"/>
+  <testcase name="testFind_WhenNotFound" classname="test.pivotal.pal.tracker.users.data.UserDataGatewayTest" time="0.018"/>
+  <testcase name="testCreate" classname="test.pivotal.pal.tracker.users.data.UserDataGatewayTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

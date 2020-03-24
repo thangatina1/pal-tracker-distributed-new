@@ -1,0 +1,9 @@
+digraph dependencies {
+  "allocations-server" -> "allocations"
+  "backlog-server" -> "backlog"
+  "registration-server" -> "accounts"
+  "registration-server" -> "projects"
+  "registration-server" -> "users"
+  "timesheets-server" -> "timesheets"
+  "accounts" -> "users"
+}
