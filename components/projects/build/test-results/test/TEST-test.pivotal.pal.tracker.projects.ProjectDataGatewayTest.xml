@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-24T02:56:00" hostname="Thangass-MacBook-Pro.local" time="0.291">
+<testsuite name="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-24T04:40:33" hostname="Thangass-MacBook-Pro.local" time="0.297">
   <properties/>
-  <testcase name="testFind" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.229"/>
+  <testcase name="testFind" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.236"/>
   <testcase name="testFindAllByAccountId" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.031"/>
   <testcase name="testCreate" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.03"/>
   <system-out><![CDATA[]]></system-out>

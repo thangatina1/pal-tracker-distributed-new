@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.allocations.AllocationDataGatewayTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-24T02:55:58" hostname="Thangass-MacBook-Pro.local" time="0.263">
+<testsuite name="test.pivotal.pal.tracker.allocations.AllocationDataGatewayTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-24T04:40:31" hostname="Thangass-MacBook-Pro.local" time="0.277">
   <properties/>
-  <testcase name="testCreate" classname="test.pivotal.pal.tracker.allocations.AllocationDataGatewayTest" time="0.244"/>
+  <testcase name="testCreate" classname="test.pivotal.pal.tracker.allocations.AllocationDataGatewayTest" time="0.259"/>
   <testcase name="testFindAllByProjectId" classname="test.pivotal.pal.tracker.allocations.AllocationDataGatewayTest" time="0.018"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".

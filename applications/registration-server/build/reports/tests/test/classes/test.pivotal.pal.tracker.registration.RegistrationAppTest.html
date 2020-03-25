@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">10.888s</div>
+<div class="counter">11.335s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">embedded</td>
-<td class="success">10.888s</td>
+<td class="success">11.335s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,9 +90,9 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-03-24 02:55:30.614  INFO 1809 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@416d44cf: startup date [Tue Mar 24 02:55:30 UTC 2020]; root of context hierarchy
-2020-03-24 02:55:30.817  INFO 1809 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2020-03-24 02:55:30.843  INFO 1809 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6f26edf2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+<pre>2020-03-24 04:40:03.827  INFO 2699 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5136b2c9: startup date [Tue Mar 24 04:40:03 UTC 2020]; root of context hierarchy
+2020-03-24 04:40:04.025  INFO 2699 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-24 04:40:04.049  INFO 2699 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ff6808bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -102,84 +102,84 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.0.6.RELEASE)
 
-2020-03-24 02:55:30.984  INFO 1809 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
-2020-03-24 02:55:31.065  INFO 1809 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
-2020-03-24 02:55:31.066  WARN 1809 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for &quot;http://localhost:8888/registration-server/default&quot;: Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
-2020-03-24 02:55:31.069  INFO 1809 --- [    Test worker] io.pivotal.pal.tracker.registration.App  : No active profile set, falling back to default profiles: default
-2020-03-24 02:55:31.086  INFO 1809 --- [    Test worker] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b18a20d: startup date [Tue Mar 24 02:55:31 UTC 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@416d44cf
-2020-03-24 02:55:31.844  INFO 1809 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
-2020-03-24 02:55:32.052  INFO 1809 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea509825-aba3-3f4e-a317-21ea4a5e93d8
-2020-03-24 02:55:32.066  INFO 1809 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2020-03-24 02:55:32.162  INFO 1809 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$530ceaf5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-03-24 02:55:32.187  INFO 1809 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6f26edf2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-03-24 02:55:32.535  INFO 1809 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
-2020-03-24 02:55:32.557  INFO 1809 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-03-24 02:55:32.557  INFO 1809 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
-2020-03-24 02:55:32.566  INFO 1809 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thangasmacbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2020-03-24 02:55:32.679  INFO 1809 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-03-24 02:55:32.680  INFO 1809 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1594 ms
-2020-03-24 02:55:32.816  WARN 1809 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-03-24 02:55:32.816  INFO 1809 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-03-24 02:55:32.823  INFO 1809 --- [ost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5d5421a2
-2020-03-24 02:55:33.468  INFO 1809 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2020-03-24 02:55:33.469  INFO 1809 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
-2020-03-24 02:55:33.469  INFO 1809 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2020-03-24 02:55:33.469  INFO 1809 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2020-03-24 02:55:33.469  INFO 1809 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2020-03-24 02:55:33.469  INFO 1809 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
-2020-03-24 02:55:33.469  INFO 1809 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
-2020-03-24 02:55:33.470  INFO 1809 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2020-03-24 02:55:33.680  INFO 1809 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2020-03-24 04:40:04.194  INFO 2699 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-03-24 04:40:04.268  INFO 2699 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-03-24 04:40:04.268  WARN 2699 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for &quot;http://localhost:8888/registration-server/default&quot;: Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2020-03-24 04:40:04.271  INFO 2699 --- [    Test worker] io.pivotal.pal.tracker.registration.App  : No active profile set, falling back to default profiles: default
+2020-03-24 04:40:04.288  INFO 2699 --- [    Test worker] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f6c957f: startup date [Tue Mar 24 04:40:04 UTC 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5136b2c9
+2020-03-24 04:40:05.067  INFO 2699 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-03-24 04:40:05.296  INFO 2699 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea509825-aba3-3f4e-a317-21ea4a5e93d8
+2020-03-24 04:40:05.312  INFO 2699 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-24 04:40:05.417  INFO 2699 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e34e05c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 04:40:05.442  INFO 2699 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ff6808bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 04:40:05.809  INFO 2699 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2020-03-24 04:40:05.835  INFO 2699 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-24 04:40:05.836  INFO 2699 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-03-24 04:40:05.844  INFO 2699 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thangasmacbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-24 04:40:05.970  INFO 2699 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-24 04:40:05.970  INFO 2699 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1682 ms
+2020-03-24 04:40:06.130  WARN 2699 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-24 04:40:06.130  INFO 2699 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-24 04:40:06.138  INFO 2699 --- [ost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1bbdcc76
+2020-03-24 04:40:06.859  INFO 2699 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-24 04:40:06.859  INFO 2699 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-03-24 04:40:06.859  INFO 2699 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-24 04:40:06.859  INFO 2699 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-24 04:40:06.860  INFO 2699 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-24 04:40:06.860  INFO 2699 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-03-24 04:40:06.860  INFO 2699 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2020-03-24 04:40:06.860  INFO 2699 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-03-24 04:40:07.104  INFO 2699 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 8f796404-9b03-4805-ab20-7d2c88823ce0
+Using generated security password: 23956cb8-061a-483e-b517-2ae0e657c8cd
 
-2020-03-24 02:55:33.876  INFO 1809 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22222f8c, org.springframework.security.web.context.SecurityContextPersistenceFilter@58e617cb, org.springframework.security.web.header.HeaderWriterFilter@7e061bd, org.springframework.security.web.authentication.logout.LogoutFilter@367cd9c6, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@44b0e98a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4871a78b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@348a3ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79c99bc1, org.springframework.security.web.session.SessionManagementFilter@1377a372, org.springframework.security.web.access.ExceptionTranslationFilter@e406285, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d86752d]
-2020-03-24 02:55:33.898  WARN 1809 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-03-24 02:55:33.898  INFO 1809 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-03-24 02:55:33.970  INFO 1809 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-03-24 02:55:34.034  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b18a20d: startup date [Tue Mar 24 02:55:31 UTC 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@416d44cf
-2020-03-24 02:55:34.088  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/registration],methods=[POST]}&quot; onto public io.pivotal.pal.tracker.users.UserInfo io.pivotal.pal.tracker.accounts.RegistrationController.create(io.pivotal.pal.tracker.accounts.RegistrationForm)
-2020-03-24 02:55:34.091  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/accounts],methods=[GET]}&quot; onto public java.util.List&lt;io.pivotal.pal.tracker.accounts.AccountInfo&gt; io.pivotal.pal.tracker.accounts.AccountController.list(long)
-2020-03-24 02:55:34.092  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String io.pivotal.pal.tracker.restsupport.SpringDefaultController.defaultRoute()
-2020-03-24 02:55:34.093  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/projects/{projectId}],methods=[GET]}&quot; onto public io.pivotal.pal.tracker.projects.ProjectInfo io.pivotal.pal.tracker.projects.ProjectController.get(long)
-2020-03-24 02:55:34.093  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/projects],methods=[GET]}&quot; onto public java.util.List&lt;io.pivotal.pal.tracker.projects.ProjectInfo&gt; io.pivotal.pal.tracker.projects.ProjectController.list(long)
-2020-03-24 02:55:34.093  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/projects],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.projects.ProjectInfo&gt; io.pivotal.pal.tracker.projects.ProjectController.create(io.pivotal.pal.tracker.projects.ProjectForm)
-2020-03-24 02:55:34.093  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/users/{userId}],methods=[GET]}&quot; onto public io.pivotal.pal.tracker.users.UserInfo io.pivotal.pal.tracker.users.UserController.show(long)
-2020-03-24 02:55:34.095  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2020-03-24 02:55:34.095  INFO 1809 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2020-03-24 02:55:34.117  INFO 1809 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-03-24 02:55:34.117  INFO 1809 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-03-24 02:55:34.482  INFO 1809 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
-2020-03-24 02:55:34.491  INFO 1809 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
-2020-03-24 02:55:34.491  INFO 1809 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
-2020-03-24 02:55:34.492  INFO 1809 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
-2020-03-24 02:55:34.492  INFO 1809 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
-2020-03-24 02:55:34.492  INFO 1809 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto protected java.util.Map&lt;java.lang.String, java.util.Map&lt;java.lang.String, org.springframework.boot.actuate.endpoint.web.Link&gt;&gt; org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2020-03-24 02:55:34.666  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2020-03-24 02:55:34.668  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
-2020-03-24 02:55:34.674  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
-2020-03-24 02:55:34.675  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
-2020-03-24 02:55:34.676  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
-2020-03-24 02:55:34.679  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
-2020-03-24 02:55:34.686  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
-2020-03-24 02:55:34.692  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6b18a20d,type=ConfigurationPropertiesRebinder]
-2020-03-24 02:55:34.697  INFO 1809 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
-2020-03-24 02:55:34.704  INFO 1809 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
-2020-03-24 02:55:34.710  INFO 1809 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2020-03-24 02:55:34.749  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2020-03-24 02:55:34.897  INFO 1809 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2020-03-24 02:55:34.898  INFO 1809 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2020-03-24 02:55:34.999  INFO 1809 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2020-03-24 02:55:34.999  INFO 1809 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2020-03-24 02:55:35.138  INFO 1809 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-03-24 02:55:35.161  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2020-03-24 02:55:35.161  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2020-03-24 02:55:35.162  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2020-03-24 02:55:35.162  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2020-03-24 02:55:35.162  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2020-03-24 02:55:35.162  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2020-03-24 02:55:35.162  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2020-03-24 02:55:35.215 ERROR 1809 --- [    Test worker] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+2020-03-24 04:40:07.321  INFO 2699 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@473d5615, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b9d42c4, org.springframework.security.web.header.HeaderWriterFilter@846b1c3, org.springframework.security.web.authentication.logout.LogoutFilter@620e2f8d, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@42d47fb7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@93245e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6758e28d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b80763f, org.springframework.security.web.session.SessionManagementFilter@eeb63b4, org.springframework.security.web.access.ExceptionTranslationFilter@5ad2a32b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45ee4f42]
+2020-03-24 04:40:07.347  WARN 2699 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-24 04:40:07.347  INFO 2699 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-24 04:40:07.428  INFO 2699 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-24 04:40:07.491  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f6c957f: startup date [Tue Mar 24 04:40:04 UTC 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5136b2c9
+2020-03-24 04:40:07.548  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/registration],methods=[POST]}&quot; onto public io.pivotal.pal.tracker.users.UserInfo io.pivotal.pal.tracker.accounts.RegistrationController.create(io.pivotal.pal.tracker.accounts.RegistrationForm)
+2020-03-24 04:40:07.551  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/accounts],methods=[GET]}&quot; onto public java.util.List&lt;io.pivotal.pal.tracker.accounts.AccountInfo&gt; io.pivotal.pal.tracker.accounts.AccountController.list(long)
+2020-03-24 04:40:07.552  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String io.pivotal.pal.tracker.restsupport.SpringDefaultController.defaultRoute()
+2020-03-24 04:40:07.553  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/projects/{projectId}],methods=[GET]}&quot; onto public io.pivotal.pal.tracker.projects.ProjectInfo io.pivotal.pal.tracker.projects.ProjectController.get(long)
+2020-03-24 04:40:07.553  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/projects],methods=[GET]}&quot; onto public java.util.List&lt;io.pivotal.pal.tracker.projects.ProjectInfo&gt; io.pivotal.pal.tracker.projects.ProjectController.list(long)
+2020-03-24 04:40:07.553  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/projects],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.projects.ProjectInfo&gt; io.pivotal.pal.tracker.projects.ProjectController.create(io.pivotal.pal.tracker.projects.ProjectForm)
+2020-03-24 04:40:07.554  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/users/{userId}],methods=[GET]}&quot; onto public io.pivotal.pal.tracker.users.UserInfo io.pivotal.pal.tracker.users.UserController.show(long)
+2020-03-24 04:40:07.555  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-24 04:40:07.556  INFO 2699 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-24 04:40:07.581  INFO 2699 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-24 04:40:07.581  INFO 2699 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-24 04:40:08.017  INFO 2699 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-03-24 04:40:08.026  INFO 2699 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2020-03-24 04:40:08.026  INFO 2699 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2020-03-24 04:40:08.027  INFO 2699 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2020-03-24 04:40:08.027  INFO 2699 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2020-03-24 04:40:08.028  INFO 2699 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto protected java.util.Map&lt;java.lang.String, java.util.Map&lt;java.lang.String, org.springframework.boot.actuate.endpoint.web.Link&gt;&gt; org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-24 04:40:08.212  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-24 04:40:08.214  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-03-24 04:40:08.221  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-03-24 04:40:08.222  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-03-24 04:40:08.223  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-03-24 04:40:08.226  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-03-24 04:40:08.233  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-03-24 04:40:08.241  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7f6c957f,type=ConfigurationPropertiesRebinder]
+2020-03-24 04:40:08.247  INFO 2699 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-03-24 04:40:08.253  INFO 2699 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2020-03-24 04:40:08.262  INFO 2699 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-03-24 04:40:08.297  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-03-24 04:40:08.471  INFO 2699 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-03-24 04:40:08.471  INFO 2699 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-03-24 04:40:08.582  INFO 2699 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-03-24 04:40:08.582  INFO 2699 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-03-24 04:40:08.742  INFO 2699 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-24 04:40:08.761  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-24 04:40:08.761  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-24 04:40:08.762  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-24 04:40:08.762  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-24 04:40:08.762  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-24 04:40:08.762  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-03-24 04:40:08.762  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-24 04:40:08.819 ERROR 2699 --- [    Test worker] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
 
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
@@ -210,11 +210,11 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at com.netflix.discovery.DiscoveryClient.&lt;init&gt;(DiscoveryClient.java:269) ~[eureka-client-1.9.2.jar:1.9.2]
 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.&lt;init&gt;(CloudEurekaClient.java:63) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:269) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$768fe711.CGLIB$eurekaClient$0(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$768fe711$$FastClassBySpringCGLIB$$69e9fc21.invoke(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6d101dc.CGLIB$eurekaClient$0(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6d101dc$$FastClassBySpringCGLIB$$2d0b8941.invoke(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.10.RELEASE.jar:5.0.10.RELEASE]
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) ~[spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$768fe711.eurekaClient(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6d101dc.eurekaClient(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -318,8 +318,8 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
 	... 116 common frames omitted
 
-2020-03-24 02:55:35.219  WARN 1809 --- [    Test worker] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
-2020-03-24 02:55:35.222 ERROR 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVER/192.168.1.8:registration-server:8181 - was unable to refresh its cache! status = Cannot execute request on any known server
+2020-03-24 04:40:08.825  WARN 2699 --- [    Test worker] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2020-03-24 04:40:08.829 ERROR 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVER/192.168.1.8:registration-server:8181 - was unable to refresh its cache! status = Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.2.jar:1.9.2]
@@ -333,11 +333,11 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.DiscoveryClient.&lt;init&gt;(DiscoveryClient.java:269) ~[eureka-client-1.9.2.jar:1.9.2]
 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.&lt;init&gt;(CloudEurekaClient.java:63) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:269) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$768fe711.CGLIB$eurekaClient$0(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$768fe711$$FastClassBySpringCGLIB$$69e9fc21.invoke(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6d101dc.CGLIB$eurekaClient$0(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6d101dc$$FastClassBySpringCGLIB$$2d0b8941.invoke(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.10.RELEASE.jar:5.0.10.RELEASE]
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) ~[spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$768fe711.eurekaClient(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6d101dc.eurekaClient(&lt;generated&gt;) ~[spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar:2.0.0.RELEASE]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -423,14 +423,14 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
 
-2020-03-24 02:55:35.225  WARN 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
-2020-03-24 02:55:35.226  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2020-03-24 02:55:35.228  INFO 1809 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2020-03-24 02:55:35.231  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1585018535230 with initial instances count: 0
-2020-03-24 02:55:35.235  INFO 1809 --- [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application registration-server with eureka with status UP
-2020-03-24 02:55:35.235  INFO 1809 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1585018535235, current=UP, previous=STARTING]
-2020-03-24 02:55:35.236  INFO 1809 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVER/192.168.1.8:registration-server:8181: registering service...
-2020-03-24 02:55:35.241 ERROR 1809 --- [nfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+2020-03-24 04:40:08.845  WARN 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2020-03-24 04:40:08.847  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-03-24 04:40:08.849  INFO 2699 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-03-24 04:40:08.853  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1585024808851 with initial instances count: 0
+2020-03-24 04:40:08.857  INFO 2699 --- [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application registration-server with eureka with status UP
+2020-03-24 04:40:08.858  INFO 2699 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1585024808858, current=UP, previous=STARTING]
+2020-03-24 04:40:08.859  INFO 2699 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVER/192.168.1.8:registration-server:8181: registering service...
+2020-03-24 04:40:08.866 ERROR 2699 --- [nfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
 
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
@@ -482,8 +482,8 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
 	... 29 common frames omitted
 
-2020-03-24 02:55:35.242  WARN 1809 --- [nfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
-2020-03-24 02:55:35.242  WARN 1809 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVER/192.168.1.8:registration-server:8181 - registration failed Cannot execute request on any known server
+2020-03-24 04:40:08.867  WARN 2699 --- [nfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2020-03-24 04:40:08.867  WARN 2699 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVER/192.168.1.8:registration-server:8181 - registration failed Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.2.jar:1.9.2]
@@ -501,7 +501,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
 
-2020-03-24 02:55:35.242  WARN 1809 --- [nfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+2020-03-24 04:40:08.868  WARN 2699 --- [nfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.2.jar:1.9.2]
@@ -519,15 +519,15 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
 
-2020-03-24 02:55:35.268  INFO 1809 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
-2020-03-24 02:55:35.269  INFO 1809 --- [    Test worker] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8181
-2020-03-24 02:55:35.273  INFO 1809 --- [    Test worker] io.pivotal.pal.tracker.registration.App  : Started App in 10.321 seconds (JVM running for 11.043)
-2020-03-24 02:55:35.327  INFO 1809 --- [nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2020-03-24 02:55:35.328  INFO 1809 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2020-03-24 02:55:35.341  INFO 1809 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
-2020-03-24 02:55:35.390  INFO 1809 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-03-24 02:55:35.394  WARN 1809 --- [nio-8181-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2020-03-24 02:55:35.500  INFO 1809 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-24 04:40:08.895  INFO 2699 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2020-03-24 04:40:08.896  INFO 2699 --- [    Test worker] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8181
+2020-03-24 04:40:08.901  INFO 2699 --- [    Test worker] io.pivotal.pal.tracker.registration.App  : Started App in 10.697 seconds (JVM running for 11.366)
+2020-03-24 04:40:08.969  INFO 2699 --- [nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-24 04:40:08.969  INFO 2699 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-24 04:40:08.984  INFO 2699 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2020-03-24 04:40:09.054  INFO 2699 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-24 04:40:09.060  WARN 2699 --- [nio-8181-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-24 04:40:09.184  INFO 2699 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 </pre>
 </span>
 </div>
@@ -546,7 +546,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.3</a> at Mar 23, 2020, 10:55:38 PM</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at Mar 24, 2020, 12:40:12 AM</p>
 </div>
 </div>
 </body>
